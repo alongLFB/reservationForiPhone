@@ -45,5 +45,5 @@ Mac 电脑系统下， 下载安装Xcode，然后通过 preForiPhone.xcworkspace
 ## 参考图片
 
 效果预览
-![效果预览](./Images/printLog.png)
+![效果预览](./Images/pringLog.png)
 
