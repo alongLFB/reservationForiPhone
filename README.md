@@ -28,10 +28,12 @@ Mac 电脑系统下， 下载安装Xcode，然后通过 preForiPhone.xcworkspace
 
 
 ## 使用方法
-0. Mac 系统的前提下。
-1. 下载 Xcode。
-2. 双击 preForiPhone.xcworkspace 打开该工程。
-3. 在以下代码中，修改为自己想要的城市，颜色，容量。
+1. Mac 系统的前提下。
+2. 下载 Xcode。
+3. 下载 CocoaPods， 在终端下执行 `sudo gem install cocoapods`  [CocoaPods 安装](https://guides.cocoapods.org/using/getting-started.html)
+4. 打开终端 `Terminal` 在项目 Example 目录下 执行 `pod update`
+5. 双击 Example 目录下的 preForiPhone.xcworkspace 打开该工程。
+6. 在以下代码中，修改为自己想要的城市，颜色，容量。
 ``` objc
   self.wantCitySet = [NSSet setWithObjects:@"北京", @"上海", @"成都", @"重庆", @"杭州", @"宁波", @"天津", @"南京", nil];
   self.wantColorSet = [NSSet setWithObjects:@"海蓝色", @"石墨色", @"银色", @"金色", nil];
